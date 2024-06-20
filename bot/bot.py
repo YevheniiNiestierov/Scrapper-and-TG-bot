@@ -29,7 +29,11 @@ dp = Dispatcher()
 # Handler for the /start command
 @dp.message(Command("start"))
 async def cmd_start(message: types.Message):
-    await message.answer("Hello!")  # Responding to the /start command with "Hello!"
+    kb = [
+        [types.KeyboardButton(text='/get_today_statistics')],
+    ]
+    keyboard = types.ReplyKeyboardMarkup(keyboard=kb)
+    await message.answer("Hello!", reply_markup=keyboard)  # Responding to the /start command with "Hello!"
 
 
 # Handler for the /get_today_statistics command

@@ -1,4 +1,4 @@
-# Scrapper-and-TG-bot-Test-Task
+   # Scrapper-and-TG-bot-Test-Task
 
 This repository contains scripts and configurations for a web scraper and a Telegram bot that work together to monitor and report scrapped (at the beginning of every hour) number of junior job vacancies. The web scraper retrieves data from a specific webpage (robota.ua website) and stores it in a database, while the Telegram bot provides a user interface to access and visualize this data.
 
@@ -7,23 +7,23 @@ This repository contains scripts and configurations for a web scraper and a Tele
 Before running the project, ensure you have the following installed:
 
 - Docker
-- Python 3.12 or higher
+- Python 3.9+
 
 ### Setup Instructions
 
 1. **Clone the Repository:**
 
     ```
-    git clone <repository_url>
+    git clone https://github.com/YevheniiNiestierov/YN-Scrapper-and-TG-bot-Test-Task.git
     ```
     ```
-    cd <repository_name>
+    cd YN-Scrapper-and-TG-bot-Test-Task
     ```
 
 
 2. **Environment Setup:**
 
-    Create a `.env` file in the root directory with the following environment variable:
+    Place your telegram bot token in `.env` file:
 
     ```plaintext
     TELEGRAM_BOT_TOKEN=<your_telegram_bot_token>
@@ -42,7 +42,7 @@ Before running the project, ensure you have the following installed:
     Use Docker Compose to start the services defined in `docker-compose.yml`:
 
     ```bash
-    docker-compose up -d
+    docker-compose up
     ```
 
 5. **Verify Installation:**
