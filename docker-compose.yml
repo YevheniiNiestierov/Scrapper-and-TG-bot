@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  vacancy_scrapper:
+    build: .
+    container_name: vacancy_scrapper
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+    volumes:
+      - .:/app
+    networks:
+      - vacancy_network
+
+networks:
+  vacancy_network:
+    driver: bridge

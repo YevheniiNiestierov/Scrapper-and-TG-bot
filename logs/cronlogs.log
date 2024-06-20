@@ -1,0 +1,60 @@
+Traceback (most recent call last):
+  File "/Users/yevheniiniestierov/PycharmProjects/Vacancy_quantity_parser/scrapper.py", line 17, in <module>
+    logging.basicConfig(filename='/var/log/cron.log', level=logging.INFO)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 2003, in basicConfig
+    h = FileHandler(filename, mode,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1146, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1175, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding,
+PermissionError: [Errno 13] Permission denied: '/var/log/cron.log'
+Traceback (most recent call last):
+  File "/Users/yevheniiniestierov/PycharmProjects/Vacancy_quantity_parser/scrapper.py", line 17, in <module>
+    logging.basicConfig(filename='/var/log/cron.log', level=logging.INFO)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 2003, in basicConfig
+    h = FileHandler(filename, mode,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1146, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1175, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding,
+PermissionError: [Errno 13] Permission denied: '/var/log/cron.log'
+Traceback (most recent call last):
+  File "/Users/yevheniiniestierov/PycharmProjects/Vacancy_quantity_parser/scrapper.py", line 17, in <module>
+    logging.basicConfig(filename='/var/log/cron.log', level=logging.INFO)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 2003, in basicConfig
+    h = FileHandler(filename, mode,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1146, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1175, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding,
+PermissionError: [Errno 13] Permission denied: '/var/log/cron.log'
+Traceback (most recent call last):
+  File "/Users/yevheniiniestierov/PycharmProjects/Vacancy_quantity_parser/scrapper.py", line 17, in <module>
+    logging.basicConfig(filename='/var/log/cron.log', level=logging.INFO)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 2003, in basicConfig
+    h = FileHandler(filename, mode,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1146, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1175, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding,
+PermissionError: [Errno 13] Permission denied: '/var/log/cron.log'
+Traceback (most recent call last):
+  File "/Users/yevheniiniestierov/PycharmProjects/Vacancy_quantity_parser/scrapper.py", line 17, in <module>
+    logging.basicConfig(filename='/var/log/cron.log', level=logging.INFO)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 2003, in basicConfig
+    h = FileHandler(filename, mode,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1146, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1175, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding,
+PermissionError: [Errno 13] Permission denied: '/var/log/cron.log'
+Traceback (most recent call last):
+  File "/Users/yevheniiniestierov/PycharmProjects/Vacancy_quantity_parser/scrapper.py", line 17, in <module>
+    logging.basicConfig(filename='/var/log/cron.log', level=logging.INFO)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 2003, in basicConfig
+    h = FileHandler(filename, mode,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1146, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1175, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding,
+PermissionError: [Errno 13] Permission denied: '/var/log/cron.log'

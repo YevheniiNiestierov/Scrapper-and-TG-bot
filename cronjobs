@@ -1,0 +1,1 @@
+*/60 * * * * cd /app && /usr/local/bin/python3 scrapper.py >> /var/log/cron.log 2>&1

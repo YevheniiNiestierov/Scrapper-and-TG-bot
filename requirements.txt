@@ -1,0 +1,8 @@
+selenium == 4.21.0
+undetected-chromedriver	== 3.5.5
+aiogram == 3.8.0
+webdriver-manager == 4.0.1
+SQLAlchemy == 2.0.31
+pandas == 2.2.2
+XlsxWriter == 3.2.0
+urllib3==1.26.15
