@@ -1,4 +1,4 @@
-   # Scrapper-and-TG-bot-Test-Task
+   # Scrapper-and-TG-bot
 
 This repository contains scripts and configurations for a web scraper and a Telegram bot that work together to monitor and report scrapped (at the beginning of every hour) number of junior job vacancies. The web scraper retrieves data from a specific webpage (robota.ua website) and stores it in a database, while the Telegram bot provides a user interface to access and visualize this data.
 
